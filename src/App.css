@@ -1,0 +1,160 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+}
+
+header h1 {
+  color: #4CAF50;
+  font-size: 24px;
+}
+
+footer nav a {
+  text-decoration: none;
+  color: #4CAF50;
+  margin-right: 15px;
+}
+
+footer nav a:hover {
+  color: #4CAF50;
+  text-decoration: underline;
+}
+
+.card {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+/* DhenuAgriModels.css */
+/* Header Section */
+
+
+body {
+  text-align: center;
+}
+
+/* Header Section */
+header {
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 5%;
+}
+
+.logo {
+  height: 7vh;
+}
+
+.logo img {
+  height: 100%;
+  object-fit: contain;
+}
+
+/* Main Content Section */
+.hero-section {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 15%;
+}
+
+.main-title {
+  font-size: 3.5rem;
+  margin-bottom: 1rem;
+}
+
+.sub-title {
+  color: #FF6B35;
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.bold-text {
+  font-size: 11px;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+
+.description {
+  line-height: 1.5;
+  margin-bottom: 3rem;
+  max-width: 600px;
+}
+
+.cta-buttons {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+/* Button Styles */
+button {
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+  font-weight: bold;
+  border: none;
+}
+
+.login-btn {
+  background-color: #007BFF;
+  color: white;
+  height: 7vh;
+}
+
+.get-started {
+  background-color: #007BFF;
+  color: white;
+}
+
+.subscribe {
+  background-color: white;
+  color: black;
+  border: 2px solid #000 !important;
+}
+
+/* Responsive Design */
+
+@media (max-width: 768px) {
+  .cards-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    width: 90%;
+  }
+
+  .audience-card, .vision-card, .feature-card {
+    width: 100%;
+  }
+  
+  section div[style*="grid-template-columns"] {
+    grid-template-columns: 1fr !important;
+  }
+
+  nav {
+    padding: 20px;
+}
+
+.hero-section {
+    padding: 80px 20px;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 24px;
+}
+}
